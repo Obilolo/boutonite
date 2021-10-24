@@ -25,3 +25,4 @@ input.onButtonPressed(Button.B, function () {
 input.onGesture(Gesture.Shake, function () {
     basic.showIcon(IconNames.Skull)
 })
+basic.showString("Boutonite")
