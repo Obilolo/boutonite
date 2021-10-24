@@ -1,6 +1,7 @@
 input.onPinPressed(TouchPin.P0, function () {
     basic.showIcon(IconNames.EigthNote)
     music.startMelody(music.builtInMelody(Melodies.Nyan), MelodyOptions.Once)
+    basic.showIcon(IconNames.Happy)
 })
 input.onSound(DetectedSound.Loud, function () {
     basic.showIcon(IconNames.Sad)
@@ -33,4 +34,4 @@ input.onGesture(Gesture.Shake, function () {
     basic.showIcon(IconNames.Skull)
 })
 basic.showString("Boutonite")
-input.setSoundThreshold(SoundThreshold.Loud, 210)
+input.setSoundThreshold(SoundThreshold.Loud, 193)
