@@ -33,3 +33,4 @@ input.onGesture(Gesture.Shake, function () {
     basic.showIcon(IconNames.Skull)
 })
 basic.showString("Boutonite")
+input.setSoundThreshold(SoundThreshold.Loud, 210)
